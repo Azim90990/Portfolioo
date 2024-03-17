@@ -1,0 +1,52 @@
+.header {
+    padding: 15px 0;
+}
+
+.title-1 {
+    font-size: 42px;
+    line-height: 1px;
+    margin-bottom: 24px;
+
+}
+
+.menu {
+    background: #496883;
+    color: #fff;
+    margin: 20px 0;
+    padding: 20px 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.menu>*+* {
+    margin-left: 30px;
+}
+
+.menu-link {
+    text-decoration: none;
+}
+
+.subtitle {
+    background: #f0f8ff;
+    color: #000;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.footer {
+    background: #1d3f5e;
+    color: #fff;
+    margin: 20px 0;
+    padding: 20px 40px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.main {
+    background: #dcebf0;
+    margin: 20px 0;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+}

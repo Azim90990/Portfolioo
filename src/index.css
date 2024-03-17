@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img,
+svg,
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a,
+span,
+textarea,
+button,
+input, label{
+  display: inline-block;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+a,
+textarea,
+button,
+input,
+label {
+  cursor: pointer;
+
+}
+
+html, 
+body,
+#root{
+  min-height: 100vh;
+  scroll-behavior: smooth;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 1,5;
+}
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#root>* {
+  flex-shrink: 0;
+}
+
+#root > main {
+  flex-grow: 1;
+}
